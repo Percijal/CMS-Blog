@@ -13,6 +13,6 @@ $gettedId = $_GET["id"];
 $sql = "DELETE FROM wpis WHERE id = $gettedId";
 $query = $conn -> query($sql);
               
-header("Location: ../CMS/index.php");
+header("Location: ./index.php");
 exit();
 ?>
