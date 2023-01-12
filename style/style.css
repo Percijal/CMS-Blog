@@ -42,11 +42,16 @@
 
 /* ======================================== */
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--font-color);
 
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
 h2 {
@@ -121,6 +126,12 @@ textarea{
     position: fixed;
     background-color: var(--top_bottom-bg-color);
     color: var(--top_bottom-color);
+
+    left: 0;
+    right: 0;
+
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
 }
 
 .footer{
