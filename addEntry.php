@@ -135,7 +135,7 @@ if($ready){
 
     <div class="footer sticky-bottom bg-gray opacity-100 w-100"  style="width: 100%;">
         <div class="row">
-            <p class="col-3" style="padding-left: 25px;">Copyright ©️ 2022</p>
+            <p class="col-3" style="padding-left: 25px;">Copyright ©️ 2023</p>
             <p class="col-3">...</p>
             <p class="col-3 offset-1">Tel: +48 123 456 789</p>
             <div class="col-2">
